@@ -101,6 +101,6 @@ UPDATE AD_Process_Para SET ColumnName='IsPurchaseBOMComponents', Name='Stücklis
 
 -- 2022-01-10T14:59:26.936Z
 -- I forgot to set the DICTIONARY_ID_COMMENTS System Configurator
-UPDATE AD_Process_Para SET ColumnName='IsPurchaseBOMComponents', Name='Stücklisten-Komponenten bestellen', Description='Wenn angehakt, dann werden für alle Auftragszeilen mit Stücklistenprodukt die entsprechenden Komponenten als Bestellzeilen hinzugefügt. Alle anderen Auftragszeilen werden ignoriert.', Help=NULL WHERE AD_Element_ID=580471 AND IsCentrallyMaintained='Y'
+UPDATE AD_Process_Para SET ColumnName='IsPurchaseBOMComponents', Name='Stücklisten-Komponenten bestellen', Description='Wenn angehakt, dann werden für alle Auftragszeilen mit Stücklistenprodukt die entsprechenden Komponenten bzw. Subkomponenten als Bestellzeilen hinzugefügt. Alle anderen Auftragszeilen werden ignoriert.', Help=NULL WHERE AD_Element_ID=580471 AND IsCentrallyMaintained='Y'
 ;
 
